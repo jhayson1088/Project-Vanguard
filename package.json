@@ -1,0 +1,25 @@
+{
+  "name": "vanguard-campus",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node --experimental-vm-modules --test tests/*.test.js",
+    "format": "prettier --write src tests README.md index.html package.json"
+  },
+  "dependencies": {
+    "leaflet": "^1.9.4",
+    "lucide-react": "^0.468.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^7.9.6",
+    "three": "^0.187.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.10.1",
+    "vite": "^6.4.1"
+  }
+}
